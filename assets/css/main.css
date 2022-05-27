@@ -201,7 +201,6 @@ input[type=text]:focus{
 }
 .menu_left-item:hover {
     background-color: #72af5c63;
-    /* color: white; */
 }
 .menu_right{
     width: 600px;
