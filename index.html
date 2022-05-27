@@ -11,6 +11,8 @@
     <link rel= "stylesheet" href="./main.js">
     <script type="text/javascript" language="javascript" src="./main.js"></script>
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1/css/all.min.css">
+    <link rel="icon" href="./assets/img/small_logo1.png">
+    <!-- <link rel="icon" href="./assets/img/small_logo.png"> --> 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy ="no-referrer" /> -->
     <title>BOT STORE</title>
 </head>
@@ -68,7 +70,10 @@
                 </div>
                 <div class="login-cart">
                     <div class="login-cart_item">
-                        <i class="fa-solid fa-user"></i>
+                        <!-- test -->
+                        <a href="./login.html" style="color: black;text-decoration: none;">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
                     </div>
                     <div class="login-cart_item">
                         <i class="fa-solid fa-bag-shopping"></i>
@@ -400,7 +405,54 @@
     </div>
     <!-- end body -->
     <!-- footer -->
-    <div></div>
+    <div id="footer">
+        <!-- container footer -->
+        <div class="container_footer">
+            <!-- footer logo / online shop -->
+            <div class="footer_contact-logo">
+                <a href="#">
+                    <img class="footer_logo-resize" src="./assets/img/Logo.png" alt="logo">
+                </a>
+                <p class="footer_contact-logo-text">
+                    Mua các mô hình, lego, trang trí tại của hàng Bot Store
+                </p>
+                <div class="footer_contact-logo-onlineshop">
+                    <a href="#" id="onlineshop">
+                        <div class="online-shop">
+                            <!-- logo shopee -->
+                            <div class="shopee-tiki">
+                                <img class="online-shop-logo" src="./assets/img/shopee.png" alt="shopee logo">
+                            </div>
+                            <!-- chữ bên cạnh logo -->
+                            <div>
+                                <span class="online-shop-text-top">Shopping on</span>
+                                <p class="online-shop-text-bot">Shopee</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" id="onlineshop">
+                        <div class="online-shop">
+                            <!-- logo tiki -->
+                            <div class="shopee-tiki">
+                                <img class="online-shop-logo" src="./assets/img/tiki.png" alt="tiki logo">
+                            </div>
+                            <!-- chữ bên cạnh logo -->
+                            <div>
+                                <span class="online-shop-text-top">Shopping on</span>
+                                <p class="online-shop-text-bot">Tiki</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- về chúng tôi -->
+            <div class="footer_contact-about"></div>
+            <!-- dịch vụ chăm sóc khách hàng -->
+            <div class="footer_contact-customer"></div>
+            <!-- liên hệ -->
+            <div class="footer_contact-contact"></div>
+        </div>
+    </div>
     <!-- end footer -->
 </body>
 </html>
