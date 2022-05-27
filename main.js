@@ -1,10 +1,10 @@
 var arr_img=[
-    "./assets/img/lego1 - Copy.jpg",
-    "./assets/img/zoro1400x600 - Copy.jpg",
+    "./assets/img/lego1.jpg",
+    "./assets/img/bg1.jpg",
     "./assets/img/transformer1440x600.jpg",
-    "./assets/img/Shank1440x600 - Copy.jpg",
-    "./assets/img/bgninja.jpg",
-    "./assets/img/narutocovien.jpg",
+    "./assets/img/bg5.png",
+    "./assets/img/bg6.jpg",
+    "./assets/img/bg4.jpg",
 ]
 var index = 0;
 function next()

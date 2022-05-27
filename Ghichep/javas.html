@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var a= 5 , b = 15;
+        function cong(x,y){
+            return x + y;
+        }
+        function tinhtong(){
+            var txta = document.getElementById("txta");
+            var txtb = document.getElementById("txtb");
+            var sa = txtxa.value;
+            var sb = txtb.value;
+            
+            var fa = parseFloat(sa);
+            var fb = parseFloat(sb);
+
+            var fTong = fa + fb;
+            var lbketqua = document.getElementById("lbketqua");
+            lbketqua.innerHTML = fTong;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <span id="txta">a = </span>
+        <span>
+            <input type="text">
+            <span>
+                <script>
+                    // document.getElementsByID('txta').value
+                    // var a = document.getElementById('txta').value
+                    // var a = txta.value
+                </script>
+            </span>
+        </span>
+    </div>
+    <div>
+        <span id="txtb">b = </span>
+        <span>
+            <input type="text">
+            <script>
+                    // document.getElementsByID('txta').value
+                    // var b = document.getElementById('txtb').value
+                    // var b = txtb.value
+            </script>
+        </span>
+    </div>
+    <div>
+        <input type="button" value="Tính tổng" id="" onclick="tinhtong()">
+    </div>
+    <div>
+        <span>a + b = </span>
+        <span id="txtketqua">
+            <script>
+                // cong(a,b);
+                // // var tong = document.getElementById('txtketqua').value
+                // var tong = txtketqua.value
+                // document.write(tong);
+            </script>
+        </span>
+    </div>
+</body>
+</html>

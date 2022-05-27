@@ -1,0 +1,239 @@
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    background-color: rgb(218,218,218);
+}
+/* css phần dưới trái header */
+.header{
+    width: 100%;
+    height: 182px;
+    background-image: url(/Images/Banner.jpg);
+    background-repeat: repeat;
+}
+.header__container{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+}
+.header__top{
+    height: 70%;
+    width: 100%;
+}
+.header__top--title{
+    color: white;
+    font-size: 58px;
+    font-weight: 400;
+    padding: 20px 60px;
+}
+.header__bot{
+    width: 100%;
+    height: 30%;
+}
+.header__bot--left{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.header__list-link{
+    padding: 0;
+    margin: 0;
+}
+.header__bot-itemL{
+    list-style: none;
+    background-color: white;
+    float: left;
+    margin-right: 10px;
+    width: 110px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 18px;
+}
+.header__bot--link{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+/* css phần dưới phải header */
+.header__bot--right{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+.header__botR-text{
+    color: white; 
+    text-align: center;
+}
+
+/* css body */
+.body_main{
+    background-color: white; 
+    height: 1550px; 
+    width: 1100px; 
+    margin: 30px auto; 
+    padding: 20px;
+}
+/* css success-fail */
+.body__left{
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+.body__success{
+    width: 100%;
+    height: 35px;
+    background-color: rgba(86, 215, 86, 0.297);
+    border: solid 1px green;
+    position: relative;
+    color: green;
+}
+.body__fail{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: rgba(243, 66, 66, 0.3);
+    border: solid 1px red;
+    position: relative;
+    color: red;
+}
+.img_check{
+    padding: 0px 10px;
+}
+.body__text{
+    line-height: 35px;
+    font-weight: 500;
+}
+.img__close{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.body__document{
+    font-size: 16px;
+    text-align: justify;
+}
+/* css Forms */
+.body__title{
+    margin: 20px 0px -5px 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.form__sptext{
+    color: #a79683;
+    font-weight: 500;
+    font-size: 18px;
+}
+.form__input{
+    margin: 8px 0px;
+    height: 34px;
+    font-size: 18px;
+    padding-left: 5px;
+    border: solid 1px #a79683 ;
+}
+.form__input::-webkit-input-placeholder{
+    font-size: 20px;
+    line-height: 3;
+    color: black;
+}
+.form__input-large{
+    width: 550px;
+}
+.form__cb_rd{
+    margin: 10px 0px;
+}
+#form__option{
+    margin: 10px 0px;
+    width: 190px;
+    height: 30px;
+}
+#form__btnsubmit{
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+/* css Table */
+.body__table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table__email{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+}
+.table__img{
+    margin-right: 8px;
+}
+/* css heading H1 */
+#img_TB{
+    height: 36px;
+    width: auto;
+    margin-right: 25px ;
+}
+.body_h1_document2{
+    margin: 30px 0px 0px 30px; 
+    display: flex;
+}
+.document__h1{
+    margin: 0px;
+}
+/* css heading h2 */
+.h2__list-item{
+    padding: 0; 
+    margin: 22px 0px 0px 0px;
+}
+.h2__item{
+    font-size: 16px;
+    margin: 9px 0px;
+    list-style: none;
+}
+.img__arrowR{
+    width: 15px;
+    height: auto;
+}
+/* css body RIGHT */
+.body__right{
+    width: 20%;
+    height: 100%;
+    float: right;
+    margin-left: 20px ;
+}
+.body__right-top{
+    background-color: rgba(129, 177, 243, 0.463);
+    color: black;
+    height: 50px;
+    border: solid 1px rgb(107, 162, 234);
+}
+.body__right--title{
+    padding: 12px;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* css phai */
+.body__samplte-link{
+    display: flex;
+    padding: 12px;
+}
+.img_samplte-link{
+    padding:6px 12px 0px 0px;
+}
+.samplte-link{
+    font-size: 20px;
+    color: rgb(61, 157, 231);
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-image: url(/Images//Banner.jpg);
+}
+.footer__text{
+    width: 1100px;
+    height: 30px;
+    margin: auto;
+    color: white;
+    line-height: 30px;
+    padding: 12px;
+}
