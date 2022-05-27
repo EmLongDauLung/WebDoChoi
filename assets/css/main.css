@@ -469,6 +469,12 @@ input[type=text]:focus{
 .footer_contact-contact{
     width: 25%;
 }
+.footer_contact-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
 /* logo footer */
 .footer_logo-resize{
     width: 300px;
@@ -511,5 +517,35 @@ input[type=text]:focus{
 .shopee-tiki{
     margin-right: 5px;
     margin-top: 5px;
+}
+/* about us */
+.about-link{
+    display: block;
+    text-decoration: none; 
+    color: white;
+    font-size: 14px;
+    padding: 6px 0;
+}
+/* lien he */
+.footer_contact-icon{
+    display: flex;
+    /* height: ; */
+    font-size: 15px;
+    margin: 0 -5px;
+}
+.footer_contact-icon-child{
+    border-radius: 50%;
+    background-color: #316020;
+    margin: 5px;
+    padding: 10px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+}
+.footer_contact-text{
+    font-size: 14px;
+    color: white;
+    /* margin: 10px 0; */
+    padding: 7px 0;
 }
 /* ==============END FOOTER============== */
