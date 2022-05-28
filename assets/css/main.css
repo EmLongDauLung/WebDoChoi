@@ -147,6 +147,10 @@ input[type=text]:focus{
     box-sizing: border-box;
     margin-left: 10px;
 }
+.login_cart-item-link{
+    text-decoration: none;
+    color: black;
+}
 .login-cart_item:hover {
     background-color: #72af5c63;
 }
