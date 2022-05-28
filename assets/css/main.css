@@ -245,6 +245,7 @@ input[type=text]:focus{
 #img__bgreview{
     width: 100%;
     height: 100%;
+    border-radius: 6px;
 }
 /* ============css Body============ */
 #body{
@@ -313,6 +314,7 @@ input[type=text]:focus{
     width: 100%;
     height: 220px;
     cursor: pointer;
+    object-fit: cover;
 }
 .describe_products{
     margin-top: 5px;
@@ -456,6 +458,7 @@ input[type=text]:focus{
     height: 180px;
     border-radius: 10px;
     cursor: pointer;
+    object-fit: cover;
 }
 .arrivals-info_text{
     width: 100%;
@@ -550,7 +553,7 @@ input[type=text]:focus{
 .body_bot{
     width: 1200px;
     height: auto;
-    margin: auto;
+    margin: 60px auto 0;
 }
 .body_bot-recommend{
     width: 100%;
@@ -562,6 +565,45 @@ input[type=text]:focus{
 }
 .products_recommend{
     margin: 10px 0;
+}
+/* =============== CSS END BODY INFO */
+.body_info{
+    width: 1200px;
+    height: auto;
+    margin: 60px auto 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.body_info-item{
+    width: 23%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px -6px black;
+}
+.body_info-item-icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #e7e9ec;
+}
+.icon_info-sp{
+    font-size: 20px;
+}
+.body_info-item-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.body_info-item-description{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
 }
 /* ==============FOOTER============== */
 #footer{
