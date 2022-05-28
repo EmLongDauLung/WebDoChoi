@@ -314,7 +314,11 @@ input[type=text]:focus{
     width: 100%;
     height: 220px;
     cursor: pointer;
+<<<<<<< HEAD
     object-fit: cover;
+=======
+    /* object-fit: cover; */
+>>>>>>> d12105ca64dda325bd3c594063f040e3ad841397
 }
 .describe_products{
     margin-top: 5px;
