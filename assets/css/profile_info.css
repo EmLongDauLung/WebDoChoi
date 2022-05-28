@@ -212,7 +212,7 @@ input[type=text]:focus{
     background-color: #72af5c63;
 }
 .menu_right{
-    width: 600px;
+    width: 500px;
     height: 40px;
     line-height: 40px;
     color: rgb(0, 0, 0);
