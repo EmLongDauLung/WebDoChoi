@@ -255,9 +255,9 @@ input[type=text]:focus{
 .body_right{
     width: 72%;
     height: 500px;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
-/* body left */
+/* ======body left====== */
 .body_left-dashboard{
     width: 100%;
     height: 50%;   
@@ -277,18 +277,58 @@ input[type=text]:focus{
     font-size: 15px;
 }
 .body_left-dashboard_child:hover{
-    border-left: solid 4px #72af5c;
+    border-left: solid 4px #397224;
+    color: #397224;
 }
 #profile_page{
-    border-left: solid 4px #72af5c;
+    border-left: solid 4px #397224;
+    color: #397224;
 }
-
-
-
-/* body right */
 .body_left-setting{
     width: 100%;
     height: 50%;
+}
+/* #hover_icon:hover{
+    color: #72af5c;
+} */
+
+/* ====body right==== */
+.body_right-title{
+    display: flex;
+    justify-content: space-between;
+}
+#body_right-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.body_right-title-1{
+    display: flex;
+    align-items: center;
+}
+.body_right-edit_button{
+    /* border: 1px #316020 solid; */
+    background-color: #397224;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.body_right-status{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px 0;
+}
+.body_right-history{
+
+}
+.body_right-info{
+
 }
 /* ========end body profile page======== */
 
