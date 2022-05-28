@@ -291,6 +291,8 @@ input[type=text]:focus{
     background-color: white;
     padding: 15px;
     box-shadow: 0px 0px 15px -8px black;
+    /* them border radius */
+    border-radius: 7px;
 }
 .img_deal-item{
     width: 100%;
@@ -365,6 +367,8 @@ input[type=text]:focus{
     display: flex;
     justify-content: space-between;
     background-color: white;
+    /* them bo tron */
+    border-radius: 7px;
 }
 .body_bot-ratings-item{
     width: 23%;
@@ -394,6 +398,8 @@ input[type=text]:focus{
     display: flex;
     justify-content: space-between;
     background-color: white;
+    /* them bo tron */
+    border-radius: 7px;
 }
 .brands-info_item{
     width: 48%;
@@ -421,6 +427,8 @@ input[type=text]:focus{
     display: flex;
     justify-content: space-between;
     background-color: white;
+    /* them bo tron */
+    border-radius: 7px;
 }
 .arrivals-info_item{
     width: 16%;
