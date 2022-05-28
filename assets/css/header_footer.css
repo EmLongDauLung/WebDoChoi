@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* header */
 html{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -231,204 +230,113 @@ input[type=text]:focus{
 .menu_right-item:hover {
     color: #72af5c;
 }
-=======
->>>>>>> 8b257f6cd9005ccf4872e82bea343b0a5ebd477f
 
-/* ========body profile page======== */
-#body{
+/* ==============FOOTER============== */
+#footer{
     width: 100%;
-    height: auto;
-    padding: 30px 0;
-    background-color: #dbe4d8;
-}
-.body_container{
-    width: 1200px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
-.body_left{
-    width: 25%;
     height: 400px;
-    background-color: white;
-    border-radius: 10px;
-    /* padding: 10px; */
-}
-.body_right{
-    width: 72%;
-    height: 500px;
-    /* background-color: tomato; */
-}
-/* ======body left====== */
-.body_left-dashboard{
-    width: 100%;
-    height: 50%;   
-}
-.body_left-dashboard_title{
-    padding: 20px;
-    font-size: 16px;
-    color: gray;
-}
-.body_left-dashboard_child{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    text-decoration: none;
-    color: black;
-    margin-bottom: 20px;
-    font-size: 15px;
-}
-.body_left-dashboard_child:hover{
-    border-left: solid 4px #72af5c;
-    color: #72af5c;
-}
-#profile_page{
-    border-left: solid 4px #72af5c;
-    color: #72af5c;
-}
-.body_left-setting{
-    width: 100%;
-    height: 50%;
-}
-/* #hover_icon:hover{
-    color: #72af5c;
-} */
-
-/* ====body right==== */
-.body_right-title{
-    display: flex;
-    justify-content: space-between;
-}
-#body_right-title{
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 15px;
-}
-.body_right-title-1{
-    display: flex;
-    align-items: center;
-}
-.body_right-edit_button{
-    /* border: 1px #316020 solid; */
+    /* padding: 30px 0; */ 
     background-color: #397224;
+}
+.container_footer{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    /* background-color: #ffcd4e; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+}
+.footer_contact-logo{
+    width: 33.3333%;
+}
+.footer_contact-about{
+    width: 16.6667%;
+}
+.footer_contact-customer{
+    width: 25%;
+}
+.footer_contact-contact{
+    width: 25%;
+}
+.footer_contact-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+/* logo footer */
+.footer_logo-resize{
+    width: 300px;
+    object-fit: cover;
+}
+.footer_contact-logo-text{
+    font-size: 15px;
+    color: white;
+    padding-left: 7px;
+    margin-bottom: 20px;
+}
+.footer_contact-logo-onlineshop{
+    display: flex;
+}
+.online-shop{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
     border-radius: 5px;
-    padding: 10px;
+    background-color: #316020;
+    padding: 10px 16px;
+    margin: 8px;
+}
+.online-shop-logo{
+    width: 50px;
+    object-fit: cover;
+}
+#onlineshop{
     text-decoration: none;
     color: white;
-    font-size: 15px;
-    font-weight: 500;
 }
-.body_right-status{
-    width: 100%;
-    height: auto;
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px 30px;
-    margin: 20px 0;
-    display: flex;
-}
-.body_right-status_avatar{
-    width: 10%;
-    /* align-items: center;
-    text-align: center; */
-}
-#body_right-status_avatar{
-    width: 100%;
-    /* height: 100%; */
-    object-fit: cover;
-    border-radius: 50%;
-}
-.body_right-status_right{
-    width: 90%;
-    padding-left: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-.body_right-status_name{
-    width: 40%;
-    padding: 20px 0;
-    /* align-items: center; */
-    /* display: flex; */
-}
-#body_right-status_name{
-    font-weight: 500;
-}
-.body_right-status_name-money{
-    font-size: 15px;
-}
-#body_right-status_name-money{
-    color: #72af5c;
-}
-.body_right-status_crown{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-#body_right-status_crown{
-    font-size: 40px;
-    color: gold;
-}
-.body_right-status_crown-child{
-    width: 85%;
-}
-#body_right-status_crown-child{
-    font-size: 15px;
-    width: 100%;
-    margin: 5px 0;
-}
-#progressBar {
-    position: relative;
-    width: 100%;
-    height: 7px;
-    background-color: #dbe4d8;
-    border-radius: 10px;
-}
-  
-#barStatus {
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    background-color: #72af5c;
-    border-radius: 10px;
-}
-.body_right-history{
-    display: flex;
-    justify-content: space-between;
-}
-.body_right-history_child{
-    padding: 15px;
-    width: 24%;
-    height: auto;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 17px;
-}
-.body_right-history_child-number{
-    font-size: 24px;
-    color: #72af5c;
-    font-weight: 600;
-}
-.body_right-info{
-    display: flex;
-    border-radius: 10px;
-    background-color: white;
-    margin: 20px 0;
-    padding: 21px 15px;
-    justify-content: space-between;
-}
-.body_right-info_child{
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-}
-.body_right-info_child-title{
-    font-size: 12px;
-    color: gray;
-}
-.body_right-info_child-text{
+.online-shop-text-top{
     font-size: 14px;
+    font-weight: 200;
 }
-/* ========end body profile page======== */
+.online-shop-text-bot{
+    font-size: 19px;
+    font-weight: 700;
+}
+.shopee-tiki{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+/* about us */
+.about-link{
+    display: block;
+    text-decoration: none; 
+    color: white;
+    font-size: 14px;
+    padding: 6px 0;
+}
+/* lien he */
+.footer_contact-icon{
+    display: flex;
+    /* height: ; */
+    font-size: 15px;
+    margin: 0 -5px;
+}
+.footer_contact-icon-child{
+    border-radius: 50%;
+    background-color: #316020;
+    margin: 5px;
+    padding: 10px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+}
+.footer_contact-text{
+    font-size: 14px;
+    color: white;
+    /* margin: 10px 0; */
+    padding: 7px 0;
+}
+/* ==============END FOOTER============== */
+
