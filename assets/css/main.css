@@ -313,6 +313,7 @@ input[type=text]:focus{
     width: 100%;
     height: 220px;
     cursor: pointer;
+    /* object-fit: cover; */
 }
 .describe_products{
     margin-top: 5px;

@@ -385,13 +385,27 @@ input[type=text]:focus{
   
 #barStatus {
     position: absolute;
-    width: 50%;
+    width: 80%;
     height: 100%;
     background-color: #72af5c;
     border-radius: 10px;
 }
 .body_right-history{
-
+    display: flex;
+    justify-content: space-between;
+}
+.body_right-history_child{
+    padding: 15px;
+    width: 24%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.body_right-history_child-number{
+    font-size: 24px;
+    color: #72af5c;
+    font-weight: 600;
 }
 .body_right-info{
 
