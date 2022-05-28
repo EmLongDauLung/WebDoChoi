@@ -212,7 +212,7 @@ input[type=text]:focus{
     background-color: #72af5c63;
 }
 .menu_right{
-    width: 600px;
+    width: 500px;
     height: 40px;
     line-height: 40px;
     color: rgb(0, 0, 0);
@@ -401,6 +401,7 @@ input[type=text]:focus{
     background-color: white;
     border-radius: 10px;
     text-align: center;
+    font-size: 17px;
 }
 .body_right-history_child-number{
     font-size: 24px;
@@ -408,7 +409,11 @@ input[type=text]:focus{
     font-weight: 600;
 }
 .body_right-info{
-
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 0;
+    padding: 10px;
 }
 /* ========end body profile page======== */
 
