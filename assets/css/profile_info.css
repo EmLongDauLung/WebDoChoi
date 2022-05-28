@@ -1,3 +1,4 @@
+/* header */
 html{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -195,7 +196,7 @@ input[type=text]:focus{
 .menu_left-child::before{
     content: "";
     width: 100%;
-    height: 9%;
+    height: 18%;
     position: absolute;
     top: -27px;
     display: block;
@@ -229,340 +230,115 @@ input[type=text]:focus{
 .menu_right-item:hover {
     color: #72af5c;
 }
-/* css header bot */
-.header_bot{
-    width: 100%;
-    height: auto;
-    padding: 16px 0;
-    box-shadow: inset 0 8px 25px -25px black;
-    background-color: rgb(255, 255, 255);
-}
-.header_bot-review{
-    width: 1100px;
-    height: 500px;
-    margin: auto;
-}
-#img__bgreview{
-    width: 100%;
-    height: 100%;
-}
-/* ============css Body============ */
+
+/* ========body profile page======== */
 #body{
     width: 100%;
     height: auto;
     padding: 30px 0;
     background-color: #dbe4d8;
 }
-.body_top{
+.body_container{
     width: 1200px;
-    height: auto;
-    margin: auto;
-}
-/* css flash deal */
-.body_top-deal{
-    width: 100%;
-    height: auto;
-    margin-top: 30px;
-}
-.body_top-title{
-    width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
-.body_top-title-left{
-    font-size: 25px;
-    font-weight: 700;
+.body_left{
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 10px; */
 }
-.icon_top-title{
-    color: #72af5c;
+.body_right{
+    width: 72%;
+    height: 500px;
+    /* background-color: tomato; */
 }
-.body_top-title-right{
-    font-size: 19px;
-    color: #787878;
+/* ======body left====== */
+.body_left-dashboard{
+    width: 100%;
+    height: 50%;   
 }
-.body_top-title-right-item{
+.body_left-dashboard_title{
+    padding: 20px;
+    font-size: 16px;
+    color: gray;
+}
+.body_left-dashboard_child{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
     text-decoration: none;
-    color: rgb(70, 70, 70);
+    color: black;
+    margin-bottom: 20px;
+    font-size: 15px;
 }
-.body_bot-deal-child{
+.body_left-dashboard_child:hover{
+    border-left: solid 4px #397224;
+    color: #397224;
+}
+#profile_page{
+    border-left: solid 4px #397224;
+    color: #397224;
+}
+.body_left-setting{
     width: 100%;
-    height: auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
+    height: 50%;
 }
-.body_bot-deal-item{
-    width: 23%;
-    height: auto;
-    background-color: white;
-    padding: 15px;
-    box-shadow: 0px 0px 15px -8px black;
-    /* them border radius */
-    border-radius: 7px;
-}
-/* ===================== */
-.products{
-    width: 23%;
-    height: auto;
-    background-color: white;
-    padding: 15px;
-    box-shadow: 0px 0px 15px -8px black;
-}
-.img_products{
-    width: 100%;
-    height: 220px;
-    cursor: pointer;
-}
-.describe_products{
-    margin-top: 5px;
-    width: 100%;
-    height: 100px;
-    display: flex;
-}
-.ratings_products{
-    width: 88%;
-    height: auto;
-    font-size: 14px;
-    font-weight: 500;
-    display: grid;
-    align-content: space-around;
-}
-.add_like_products{
-    width: 12%;
-    height: auto;
-    padding: 5px 0px;
-    text-align: right;
-    font-size: 25px;
-    display: grid;
-    align-content: space-between;
-}
-/* ================= */
-.icon_star{
-    color: #ffcd4e;
-}
-.info_price{
+/* #hover_icon:hover{
     color: #72af5c;
-}
-.oldprice{
-    margin: 0 10px;
-    color: #787878;
-    text-decoration: line-through;
-}
-.icon_heart{
-    color: #72af5c;
-    cursor: pointer;
-}
-.btn_deal-item{
-    border: solid 1px #72af5c;
-    width: 100%;
-    height: 24px;
-    color: #72af5c;
-}
-.btn_deal-item:hover{
-    cursor: pointer;
-    background-color: #72af5c;
-    color: rgb(255, 255, 255);
-}
-/* css top ratings */
-.body_top-ratings-brands{
-    width: 100%;
-    height: auto;
-    margin-top: 60px;
+} */
+
+/* ====body right==== */
+.body_right-title{
     display: flex;
     justify-content: space-between;
 }
-.body_top-ratings-brands-child{
-    width: 49%;
-    height: auto;
+#body_right-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15px;
 }
-.body_bot-ratings{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    padding: 15px;
+.body_right-title-1{
     display: flex;
-    justify-content: space-between;
-    background-color: white;
-    /* them bo tron */
-    border-radius: 7px;
+    align-items: center;
 }
-.body_bot-ratings-item{
-    width: 23%;
-    height: auto;
-    text-align: center;
-}
-.img_ratings-item{
-    width: 100%;
-    height: 140px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.body_bot-ratings-info{
-    width: 100%;
-    height: 60px;
-    font-size: 14px;
-    font-weight: 500;
-    display: grid;
-    align-content: space-around;
-}
-/* css feature brands */
-.body_bot-brands-info{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    /* them bo tron */
-    border-radius: 7px;
-}
-.brands-info_item{
-    width: 48%;
-    height: auto;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 500;
-}
-.img_featurebrands{
-    width: 100%;
-    height: 182px;
-    border-radius: 10px;
-}
-/* css new arrivals */
-.body_top-newarrivals{
-    width: 100%;
-    height: auto;
-    margin-top: 60px;
-}
-.body_bot-arrivals-info{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    /* them bo tron */
-    border-radius: 7px;
-}
-.arrivals-info_item{
-    width: 15%;
-    height: auto;
-}
-.img_arrivals-item{
-    width: 100%;
-    height: 180px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.arrivals-info_text{
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 500;
-    display: grid;
-    align-content: space-between;
-}
-/* =========== CSS BODY MID =========== */
-.body_mid{
-    width: 1200px;
-    height: 375px;
-    margin: 60px auto 30px;
-    background-image: url(../img/legobg1.jpg);
-    background-size: 100%;
-    position: relative;
-    border-radius: 10px;
-    box-shadow: 0px 2px 20px -8px black;
-}
-.body_mid-child{
-    width: 50px;
-    height: 100%;
-    font-size: 70px;
-    position: relative;
-    position: absolute;
-    right: 0%;
-    text-align: center;
-    padding: 120px 10px;
-    color: #000000c2;
-    cursor: pointer;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-}
-.body_mid-child:hover .body_mid-describe{
-    display: block;
-}
-.body_mid-describe{
-    width: 400px;
-    height: 100%;
-    padding: 30px;
-    text-align: center;
-    font-weight: 500;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    background-color: rgb(255, 255, 255);
-    display: none;
-    animation: info_vangogh ease-in 0.5s;
-}
-@keyframes info_vangogh{
-    from{
-        opacity: 0;
-        /* right: 0px; */
-        transform: scale(0);
-    }
-    to{
-        opacity: 1;
-        /* right: 30px; */
-        transform: scale(1);
-    }
-}
-.body_mid-describe-title{
-    width: 350px;
-    height: 60px;
-    margin:auto;
-    font-size: 25px;
-    line-height: 60px;
-}
-.body_mid-describe-item{
-    width: 350px;
-    height: 60px;
-    font-size: 12px;
-    font-weight: 400;
-    margin: 15px auto 25px;;
-}
-.body_mid-describe-buy{
-    font-size: 18px;
-    font-weight: 500;
-    padding: 20px 30px;
-    margin-top: 10px;
-    background-color: #c3c3c3;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-}
-.body_mid-describe-buy:hover{
-    background-color: #72af5c;
+.body_right-edit_button{
+    /* border: 1px #316020 solid; */
+    background-color: #397224;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
     color: white;
+    font-size: 15px;
+    font-weight: 500;
 }
-/* ============= css body bot ============= */
-.body_bot{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-}
-.body_bot-recommend{
+.body_right-status{
     width: 100%;
     height: auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px 0;
 }
-.products_recommend{
-    margin: 10px 0;
+.body_right-history{
+
 }
+.body_right-info{
+
+}
+/* ========end body profile page======== */
+
+
+
+
+
+
+
+
 /* ==============FOOTER============== */
 #footer{
     width: 100%;
@@ -671,3 +447,4 @@ input[type=text]:focus{
     padding: 7px 0;
 }
 /* ==============END FOOTER============== */
+
