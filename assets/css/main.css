@@ -6,6 +6,13 @@ html{
     margin: 0;
     box-sizing: border-box;
 }
+.link_decor_remover{
+    text-decoration: none;
+    color: black;
+}
+.hover-link:hover{
+    color: #72af5c;
+}
 #header{
     width: 100%;
     height: auto;
