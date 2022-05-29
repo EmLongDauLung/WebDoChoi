@@ -1,0 +1,184 @@
+#body{
+    width: 100%;
+    height: auto;
+    background-color: #dbe4d8;
+    padding: 20px 0;
+    box-shadow: inset 0 10px 20px -20px black;
+}
+.body_container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*  =========  css phần thông tin người mua ============ */
+.body_left{
+    width: 65%;
+    height: auto;
+}
+.body_left-item{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+/* css thông tin địa chỉ */
+.body_left-item-title{
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    display: flex;
+}
+.body_left-item-title-st{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: #72af5c;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* css ngày nhận hàng */
+.body_left-item-datetime{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.body_left-item-datetime-child{
+    width: 48%;
+    height: auto;
+    font-size: 14px;
+}
+.input_delivery-datetime{
+    margin: 6px 0;
+    padding: 5px 8px;
+    border: solid 2px rgb(165, 165, 165);
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.input_delivery-datetime:focus{
+    outline: none;
+    border: solid 2px #72af5c;
+}
+/*  css địa chỉ */
+.body_left-item-address{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.receiver_information{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 15px;
+}
+.receiver_information-child{
+    width: 30%;
+    min-height: 50px;
+    height: auto;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: #e7e9ec;
+}
+.receiver_information-child:hover{
+    background-color: #72af5c;
+    cursor: pointer;
+}
+/* css số điện thoại */
+.body_left-item-phone{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* css thanh toán */
+.receiver_information-pay{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.img_pay{
+    width: 40px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.info_pay{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+/*  css nút đặt hàng */
+.place_order{
+    margin-top: 30px;
+    border: none;
+    background-color: #72af5c;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.place_order:hover{
+    background-color: #397224;
+}
+/*  css body right */
+.body_right{
+    width: 32%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.body_right-item{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+.info_order{
+    font-size: 18px;
+    font-weight: 700;
+}
+.body_right-item-buy-products{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.body_right-item-products{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+.amount_products{
+    font-weight: 700;
+}
+.body_right-decoration{
+    margin: 22px 0;
+}
+.body_right-item-second{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.body_right-item-second-left{
+    font-size: 14px;
+    font-weight: 500;
+}
