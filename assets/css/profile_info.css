@@ -22,7 +22,8 @@
 }
 .body_right{
     width: 72%;
-    height: 500px;
+    /* height: 600px; */
+    height: auto;
     /* background-color: tomato; */
 }
 /* ======body left====== */

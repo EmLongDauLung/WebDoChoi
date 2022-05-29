@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/header_footer.css">
-    <link rel="stylesheet" href="../assets/css/address.css">
     <link rel="stylesheet" href="../assets/css/profile_info.css">
+    <link rel="stylesheet" href="../assets/css/thanh_toan.css">
     <script type="text/javascript" language="javascript" src="../main.js"></script>
     <link rel="stylesheet" href="../assets/font/fontawesome-free-6.1.1/css/all.min.css">
     <link rel="icon" href="../assets/img/small_logo1.png">
@@ -136,8 +136,6 @@
     </div>
     <!-- end header -->
 
-
-
     <!-- body -->
     <div id="body">
         <!-- container -->
@@ -179,14 +177,14 @@
                         </div>
                         <span>1</span>
                     </a>
-                    <a href="../src/address.html" class="body_left-dashboard_child" id="address_page">
+                    <a href="../src/address.html" class="body_left-dashboard_child">
                         <div id="hover_icon">
                             <i class="fa-solid fa-location-arrow"></i>
                             Địa chỉ
                         </div>
                         <span>2</span>
                     </a>
-                    <a href="../src/thanh_toan.html" class="body_left-dashboard_child">
+                    <a href="../src/thanh_toan.html" class="body_left-dashboard_child" id="payment_page">
                         <div id="hover_icon">
                             <i class="fa-solid fa-credit-card"></i>
                             Phương thức thanh toán
@@ -201,76 +199,121 @@
                     <!-- title -->
                     <div class="body_right-title">
                         <div class="body_right-title-1">
-                            <i class="fa-solid fa-location-arrow" style="color: #397224;"></i>
-                            <p id="body_right-title">Địa chỉ</p>
+                            <i class="fa-solid fa-credit-card" style="color: #397224;"></i>
+                            <p id="body_right-title">Phương Thức Thanh Toán</p>
                         </div>
                         <a class="body_right-edit_button" href="#">
-                            Thêm địa chỉ
+                            Thêm phương thức thanh toán mới
                         </a>
                     </div>
                 </div>
-                <div class="body_right-address">
-                    <div class="body_right-address-item">
-                        <div class="body_right-address-child">
-                            Thành phố / Tỉnh thành
-                            <div class="body_right-address-child-item">
-                                Hà Nội
+                <!-- payment content -->
+                <div class="body_right-payment">
+                    <div class="body_right-payment-item">
+                        <div id="body_right-payment-item">
+                            <div class="body_right-payment-item_child">
+                                <img src="../assets/img/BIDV.jpg" alt="bidv bank" class="payment_logo">
+                            </div>
+                            <div class="body_right-payment-item_child">
+                                <span class="payment_name">Do Tu Linh</span>
                             </div>
                         </div>
-                        <div class="body_right-address-child">
-                            Đường
-                            <div class="body_right-address-child-item">
-                                123 Đống Đa
-                            </div>
+                        <div id="body_right-payment-item" style="justify-content: space-around;">
+                            <span>1234 **** **** ****</span>
                         </div>
-                        <div class="body_right-address-child">
-                            Chỉnh sửa
-                            <div class="body_right-address-child-item">
-                                <i class="fa-solid fa-pen icon_editaddress"></i>
-                            </div>
+                        <div id="body_right-payment-item">
+                            <span>12 / 2026</span>
                         </div>
-                        <div class="body_right-address-child">
-                            Xóa
-                            <div class="body_right-address-child-item">
-                                <i class="fa-solid fa-trash-can icon_editaddress"></i>
-                            </div>
+                        <div id="body_right-payment-item" style="justify-content: space-evenly;">
+                            <i class="fa-solid fa-pen icon_editaddress"></i>
+                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
                         </div>
                     </div>
-                    <div class="body_right-address-item">
-                        <div class="body_right-address-child">
-                            Thành phố / Tỉnh thành
-                            <div class="body_right-address-child-item">
-                                Hà Nội
+                    <div class="body_right-payment-item">
+                        <div id="body_right-payment-item">
+                            <div class="body_right-payment-item_child">
+                                <img src="../assets/img/vietcombank.jpg" alt="bank" class="payment_logo">
+                            </div>
+                            <div class="body_right-payment-item_child">
+                                <span class="payment_name">Bui Ha Long</span>
                             </div>
                         </div>
-                        <div class="body_right-address-child">
-                            Đường
-                            <div class="body_right-address-child-item">
-                                456 Láng Hạ
+                        <div id="body_right-payment-item" style="justify-content: space-around;">
+                            <span>6543 **** **** ****</span>
+                        </div>
+                        <div id="body_right-payment-item">
+                            <span>02 / 2028</span>
+                        </div>
+                        <div id="body_right-payment-item" style="justify-content: space-evenly;">
+                            <i class="fa-solid fa-pen icon_editaddress"></i>
+                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
+                        </div>
+                    </div>
+                    <div class="body_right-payment-item">
+                        <div id="body_right-payment-item">
+                            <div class="body_right-payment-item_child">
+                                <img src="../assets/img/visa-logo-800x450.jpg" alt="bank" class="payment_logo">
+                            </div>
+                            <div class="body_right-payment-item_child">
+                                <span class="payment_name">Do Tu Linh</span>
                             </div>
                         </div>
-                        <div class="body_right-address-child">
-                            Chỉnh sửa
-                            <div class="body_right-address-child-item">
-                                <i class="fa-solid fa-pen icon_editaddress"></i>
+                        <div id="body_right-payment-item" style="justify-content: space-around;">
+                            <span>2313 **** **** ****</span>
+                        </div>
+                        <div id="body_right-payment-item">
+                            <span>02 / 2030</span>
+                        </div>
+                        <div id="body_right-payment-item" style="justify-content: space-evenly;">
+                            <i class="fa-solid fa-pen icon_editaddress"></i>
+                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
+                        </div>
+                    </div>
+                    <div class="body_right-payment-item">
+                        <div id="body_right-payment-item">
+                            <div class="body_right-payment-item_child">
+                                <img src="../assets/img/momo.jpg" alt="bank" class="payment_logo" style="width: 40px; height: 40px; margin-left: 15px;">
+                            </div>
+                            <div class="body_right-payment-item_child">
+                                <span class="payment_name">Bui Ha Long</span>
                             </div>
                         </div>
-                        <div class="body_right-address-child">
-                            Xóa
-                            <div class="body_right-address-child-item">
-                                <i class="fa-solid fa-trash-can icon_editaddress"></i>
+                        <div id="body_right-payment-item" style="justify-content: space-around;">
+                            <span>2313 **** **** ****</span>
+                        </div>
+                        <div id="body_right-payment-item">
+                            <span>02 / 2030</span>
+                        </div>
+                        <div id="body_right-payment-item" style="justify-content: space-evenly;">
+                            <i class="fa-solid fa-pen icon_editaddress"></i>
+                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
+                        </div>
+                    </div>
+                    <div class="body_right-payment-item">
+                        <div id="body_right-payment-item">
+                            <div class="body_right-payment-item_child">
+                                <img src="../assets/img/MBBANK.jpg" alt="bank" class="payment_logo">
                             </div>
+                            <div class="body_right-payment-item_child">
+                                <span class="payment_name">Bui Sam Son</span>
+                            </div>
+                        </div>
+                        <div id="body_right-payment-item" style="justify-content: space-around;">
+                            <span>1111 **** **** ****</span>
+                        </div>
+                        <div id="body_right-payment-item">
+                            <span>10 / 2023</span>
+                        </div>
+                        <div id="body_right-payment-item" style="justify-content: space-evenly;">
+                            <i class="fa-solid fa-pen icon_editaddress"></i>
+                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- end body right -->
-
         </div>
     </div>
     <!-- end body -->
-
-
 
     <!-- footer -->
     <div id="footer">
