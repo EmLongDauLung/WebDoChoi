@@ -106,7 +106,7 @@ html{
     height: 44px;
     display: flex;
 }
-input[type=text]{
+.input_search{
     width: 88%;
     height: 100%;
     box-sizing: border-box;
@@ -116,7 +116,7 @@ input[type=text]{
     padding: 10px 26px;
     font-size: 16px;
 }
-input[type=text]:focus{
+.input_search:focus{
     outline: none;
     border: solid 1px #72af5c;
 }
