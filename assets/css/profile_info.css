@@ -128,13 +128,14 @@
     color: #72af5c;
 }
 .body_right-status_name-level{
-    width: 160px;
+    width: 122px;
     height: 30px;
     text-align: center;
     line-height: 30px;
     border-radius: 6px;
     background-color: #397224;
     color: rgb(255, 255, 255);
+    font-size: 15px;
 }
 .body_right-status_crown{
     width: 50%;
