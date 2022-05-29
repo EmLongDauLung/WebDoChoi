@@ -152,6 +152,10 @@ html{
 .login-cart_item:hover {
     background-color: #72af5c63;
 }
+.login_cart-item-link{
+    text-decoration: none;
+    color: black;
+}
 /*  css header mid BOT */
 .mid-bot{
     width: 1200px;
