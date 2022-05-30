@@ -183,10 +183,11 @@
     padding: 20px;
 }
 .user_ratingproducts-star{
-    width: 25%;
+    width: 100%;
     height: auto;
-    display: flex;
-    justify-content: space-between;
+}
+.user_ratingproducts-star-title{
+    margin-right: 12px;
 }
 .user_ratingproducts-cmt{
     width: 100%;
