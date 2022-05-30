@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/header_footer.css">
     <link rel="stylesheet" href="../assets/css/profile_info.css">
-    <link rel="stylesheet" href="../assets/css/thanh_toan.css">
     <script type="text/javascript" language="javascript" src="../main.js"></script>
     <link rel="stylesheet" href="../assets/font/fontawesome-free-6.1.1/css/all.min.css">
     <link rel="icon" href="../assets/img/small_logo1.png">
@@ -65,16 +64,15 @@
                     </div>
                 </div>
                 <div class="login-cart">
-                    <a href="../src/login.html" class="login_cart-item-link">
-                        <div class="login-cart_item">
+                    <div class="login-cart_item">
+                        <!-- test -->
+                        <a href="../src/login.html" style="color: black;text-decoration: none;">
                             <i class="fa-solid fa-user"></i>
-                        </div>
-                    </a>
-                    <a href="../src/cart.html" class="login_cart-item-link">
-                        <div class="login-cart_item">
-                            <i class="fa-solid fa-bag-shopping"></i>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="login-cart_item">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
                 </div>
             </div>
             <!-- end header mid top -->
@@ -148,21 +146,21 @@
                     <div class="body_left-dashboard_title">THÔNG TIN</div>
                     <a href="./oder.html" class="body_left-dashboard_child">
                         <div id="hover_icon">
-                            <i class="fa-solid fa-cart-shopping icon_dashboard"></i>
-                            Đặt hàng
+                            <i class="fa-solid fa-cart-shopping"  id="current_page"></i>
+                            Orders
                         </div>
                         <span>69</span>
                     </a>
                     <a href="./favorite.html" class="body_left-dashboard_child">
                         <div id="hover_icon">
-                            <i class="fa-solid fa-heart icon_dashboard"></i>
+                            <i class="fa-solid fa-heart"></i>
                             Yêu thích
                         </div>
                         <span>420</span>
                     </a>
                     <a href="./support.html" class="body_left-dashboard_child">
                         <div id="hover_icon">
-                            <i class="fa-solid fa-headset icon_dashboard"></i>
+                            <i class="fa-solid fa-headset"></i>
                             Hỗ trợ
                         </div>
                         <span>1</span>
@@ -173,21 +171,21 @@
                     <div class="body_left-dashboard_title">TÀI KHOẢN</div>
                     <a href="../src/profile_info.html" class="body_left-dashboard_child">
                         <div id="hover_icon">
-                            <i class="fa-solid fa-user icon_dashboard"></i>
+                            <i class="fa-solid fa-user dashboard_icon"></i>
                             Trang cá nhân
                         </div>
                         <span>1</span>
                     </a>
                     <a href="../src/address.html" class="body_left-dashboard_child">
                         <div id="hover_icon">
-                            <i class="fa-solid fa-location-arrow icon_dashboard"></i>
+                            <i class="fa-solid fa-location-arrow dashboard_icon"></i>
                             Địa chỉ
                         </div>
                         <span>2</span>
                     </a>
-                    <a href="../src/thanh_toan.html" class="body_left-dashboard_child" id="current_page">
+                    <a href="../src/thanh_toan.html" class="body_left-dashboard_child">
                         <div id="hover_icon">
-                            <i class="fa-solid fa-credit-card icon_dashboard"></i>
+                            <i class="fa-solid fa-credit-card dashboard_icon"></i>
                             Phương thức thanh toán
                         </div>
                         <span>3</span>
@@ -197,119 +195,7 @@
             <!-- body right -->
             <div class="body_right">
                 <div>
-                    <!-- title -->
-                    <div class="body_right-title">
-                        <div class="body_right-title-1">
-                            <i class="fa-solid fa-credit-card body_right-title_icon"></i>
-                            <p id="body_right-title">Phương Thức Thanh Toán</p>
-                        </div>
-                        <a class="body_right-edit_button" href="#">
-                            Thêm phương thức thanh toán mới
-                        </a>
-                    </div>
-                </div>
-                <!-- payment content -->
-                <div class="body_right-payment">
-                    <div class="body_right-payment-item">
-                        <div id="body_right-payment-item">
-                            <div class="body_right-payment-item_child">
-                                <img src="../assets/img/BIDV.jpg" alt="bidv bank" class="payment_logo">
-                            </div>
-                            <div class="body_right-payment-item_child">
-                                <span class="payment_name">Do Tu Linh</span>
-                            </div>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-number">
-                            <span>1234 **** **** ****</span>
-                        </div>
-                        <div id="body_right-payment-item">
-                            <span>12 / 2026</span>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-date">
-                            <i class="fa-solid fa-pen icon_editaddress"></i>
-                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
-                        </div>
-                    </div>
-                    <div class="body_right-payment-item">
-                        <div id="body_right-payment-item">
-                            <div class="body_right-payment-item_child">
-                                <img src="../assets/img/vietcombank.jpg" alt="bank" class="payment_logo">
-                            </div>
-                            <div class="body_right-payment-item_child">
-                                <span class="payment_name">Bui Ha Long</span>
-                            </div>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-number">
-                            <span>6543 **** **** ****</span>
-                        </div>
-                        <div id="body_right-payment-item">
-                            <span>02 / 2028</span>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-date">
-                            <i class="fa-solid fa-pen icon_editaddress"></i>
-                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
-                        </div>
-                    </div>
-                    <div class="body_right-payment-item">
-                        <div id="body_right-payment-item">
-                            <div class="body_right-payment-item_child">
-                                <img src="../assets/img/visa-logo-800x450.jpg" alt="bank" class="payment_logo">
-                            </div>
-                            <div class="body_right-payment-item_child">
-                                <span class="payment_name">Do Tu Linh</span>
-                            </div>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-number">
-                            <span>2313 **** **** ****</span>
-                        </div>
-                        <div id="body_right-payment-item">
-                            <span>02 / 2030</span>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-date">
-                            <i class="fa-solid fa-pen icon_editaddress"></i>
-                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
-                        </div>
-                    </div>
-                    <div class="body_right-payment-item">
-                        <div id="body_right-payment-item">
-                            <div class="body_right-payment-item_child">
-                                <img src="../assets/img/momo.jpg" alt="bank" class="payment_logo payment_momo">
-                            </div>
-                            <div class="body_right-payment-item_child">
-                                <span class="payment_name">Bui Ha Long</span>
-                            </div>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-number">
-                            <span>2313 **** **** ****</span>
-                        </div>
-                        <div id="body_right-payment-item">
-                            <span>02 / 2030</span>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-date">
-                            <i class="fa-solid fa-pen icon_editaddress"></i>
-                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
-                        </div>
-                    </div>
-                    <div class="body_right-payment-item">
-                        <div id="body_right-payment-item">
-                            <div class="body_right-payment-item_child">
-                                <img src="../assets/img/MBBANK.jpg" alt="bank" class="payment_logo">
-                            </div>
-                            <div class="body_right-payment-item_child">
-                                <span class="payment_name">Bui Ha Linh</span>
-                            </div>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-number">
-                            <span>1111 **** **** ****</span>
-                        </div>
-                        <div id="body_right-payment-item">
-                            <span>10 / 2023</span>
-                        </div>
-                        <div id="body_right-payment-item" class="body_right-payment-item-date">
-                            <i class="fa-solid fa-pen icon_editaddress"></i>
-                            <i class="fa-solid fa-trash-can icon_editaddress"></i>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
