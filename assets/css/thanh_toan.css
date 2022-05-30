@@ -65,3 +65,17 @@
 .icon_editaddress:hover{
     background-color: rgb(200, 200, 200);
 }
+#payment_icon{
+    color: #397224;
+}
+.body_right-payment-item-number{
+    justify-content: space-around !important;
+}
+.body_right-payment-item-date{
+    justify-content: space-evenly !important;
+}
+.payment_momo{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
