@@ -49,15 +49,7 @@
     border-left: solid 4px #72af5c;
     color: #72af5c;
 }
-<<<<<<< HEAD
-.icon_dashboard{
-    width: 20px;
-    margin-right: 5px;
-}
-#profile_page{
-=======
 #current_page{
->>>>>>> 2f44e9f858e48c394eabc405744cc60a2a2f398d
     border-left: solid 4px #72af5c;
     color: #72af5c;
 }
@@ -69,7 +61,8 @@
     color: #72af5c;
 } */
 .dashboard_icon{
-    /* margin-right: 10px; */
+    width: 20px;
+    margin-right: 5px;
 }
 
 /* ====body right==== */
