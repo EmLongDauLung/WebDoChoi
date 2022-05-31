@@ -48,7 +48,7 @@
     border: solid 1px #72af5c;
 }
 .body_right-btnlogin{
-    width: 300px;
+    width: 100%;
     height: 50px;
     margin: 10px 0;
     font-size: 20px;
@@ -63,22 +63,43 @@
     color: white;
 }
 .body_right-forgotpass{
-    color: rgb(43, 194, 240);
+    color: #72af5c;
+}
+.body_right-register{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: none;
+}
+.body_right-policy{
+    width: 80%;
+    height: auto;
+    margin: 12px auto;
+    font-size: 16px;
+}
+.body_right-policy-item{
+    text-decoration: none;
+    color: #72af5c;
 }
 .body_right-decoration{
     margin: 20px 0;
 }
-.body_right-btncreateacc{
-    width: 220px;
+.body_right-btncreateacc-login{
+    /* width: 220px; */
     height: 50px;
+    margin: auto;
+    padding: 10px 20px;
     font-size: 20px;
     font-weight: 700;
     border: none;
     border-radius: 8px;
     text-align: center;
 }
-.body_right-btncreateacc:hover{
+.body_right-btncreateacc-login:hover{
     background-color: #72af5c;
     cursor: pointer;
     color: white;
+}
+#btn_login{
+    display: none;
 }

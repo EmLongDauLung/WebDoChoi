@@ -20,18 +20,29 @@
                 <img src="../assets/img/small_logo1.png" alt="">
                 <img src="../assets/img/Logo.png" alt="Ảnh Logo" class="body_left-imgLogo">
             </a>
-            <!-- <p class="body_left-describe">Để có 1 căn phòng đẹp và mới lạ hãy đến với chúng tôi.</p> -->
         </div>
         <div class="body_right">
             <div>
                 <input type="text" placeholder="Email hoặc Số Điện Thoại" class="body_right-inputlogin">
                 <input type="password" placeholder="Mật Khẩu" class="body_right-inputlogin">
-                <button class="body_right-btnlogin">Đăng Nhập</button> <br>
-                <a href="#" class="body_right-forgotpass">Forgotten Password ?</a>
+                <div class="body_right-login" id="login">
+                    <button class="body_right-btnlogin">Đăng Nhập</button> <br>
+                    <a href="#" class="body_right-forgotpass">Forgotten Password ?</a>
+                </div>
+                <div class="body_right-register" id="createacc">
+                    <input type="password" placeholder="Nhập lại mật khẩu" class="body_right-inputlogin">
+                    <div class="body_right-policy">
+                        Bằng việc đăng kí, bạn đã đồng ý với Shopee về 
+                        <a href="#" class="body_right-policy-item">Điều khoản dịch vụ</a>
+                        & 
+                        <a href="#" class="body_right-policy-item">Chính sách bảo mật </a>
+                    </div>
+                </div>
             </div>
             <hr class="body_right-decoration">
             <div>
-                <button class="body_right-btncreateacc">Tạo Tài Khoản</button>
+                <button class="body_right-btncreateacc-login" id="btn_login" onclick="op_login()">Đăng Nhập</button>
+                <button class="body_right-btncreateacc-login" id="btn_createaccount" onclick="op_register()">Tạo Tài Khoản</button>
             </div>
         </div>
     </div>

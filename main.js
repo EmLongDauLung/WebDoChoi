@@ -15,23 +15,15 @@ function next()
     var img__bgreview = document.getElementById("img__bgreview");
     img__bgreview.src = arr_img[index];
 }
-function prev()
-{
-    index--;
-    if(index <= 0)
-        index = 5;
-    var img__bgreview = document.getElementById("img__bgreview");
-    img__bgreview.src = arr_img[index];
-}
-Nextimg = function next_img()
-{
-    index++;
-    if(index >= arr_img.length)
-        index = 0;
-    var img__bgreview = document.getElementById("img__bgreview");
-    img__bgreview.src = arr_img[index];
-}
-setInterval(Nextimg,3000);
+// function prev()
+// {
+//     index--;
+//     if(index <= 0)
+//         index = 5;
+//     var img__bgreview = document.getElementById("img__bgreview");
+//     img__bgreview.src = arr_img[index];
+// }
+// setInterval(next,3000);
 // Hiệu ứng chọn ảnh nhỏ mở ra ảnh lớn trong phần sản phẩm-products
 var img_products=[
     "../assets/img/Uchiha Madara (2).jpg",
@@ -82,3 +74,32 @@ function img_product5(){
 //     img__bgreview.src = img_products[dem];
 // }
 // setInterval(Nextimg_products,3000);
+
+// mở form đăng kí
+function op_register(){
+    let register = document.getElementById("createacc");
+    register.style.display = "block";
+
+    let login = document.getElementById("login");
+    login.style.display = "none";
+
+    let btnlogin = document.getElementById("btn_login")
+    btnlogin.style.display = "block";
+
+    let btnregister = document.getElementById("btn_createaccount");
+    btnregister.style.display = "none";
+}
+
+function op_login(){
+    let register = document.getElementById("createacc");
+    register.style.display = "none";
+
+    let login = document.getElementById("login");
+    login.style.display = "block";
+
+    let btnlogin = document.getElementById("btn_login")
+    btnlogin.style.display = "none";
+
+    let btnregister = document.getElementById("btn_createaccount");
+    btnregister.style.display = "block";
+}
