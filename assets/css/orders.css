@@ -1,0 +1,102 @@
+.body_right-oders{
+    /* padding-bottom: 30px; */
+}
+.body_right-oders_child{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 6px;
+    padding: 10px 20px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.order_items_icon{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.order_items_icon:hover{
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+.order_items_icon-link{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.oders_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.oders_items-child{
+    /* margin-right: 90px; */
+    font-size: 15px;
+    /* padding: 7px 10px; */
+    width: 25%;
+}
+.status-red{
+    border-radius: 20px;
+    background-color: #ffa9b8;
+    color: rgb(233, 69, 96);
+    padding: 7px 10px;
+}
+.status-green{
+    border-radius: 20px;
+    background-color: #a9ffb8;
+    color: rgb(51, 208, 103);
+    padding: 7px 10px;
+}
+.status-gray{
+    border-radius: 20px;
+    background-color: #d0d0d0;
+    color: rgb(132, 132, 132);
+    padding: 7px 10px;
+}
+.body_right-oders-title{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.oders-title-child{
+    margin-right: 88px;
+    font-size: 17px;
+    margin-left: 10px;
+    color: gray;
+}
+.money_margin{
+    padding-left: 35px;
+}
+.page_button{
+    margin-top: 20px;
+}
+.page_button_container{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.page_button-child{
+    padding: 7px;
+    border: 1px solid #39743900;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.page_button-child:hover{
+    border: 1px solid #397439;
+}
+.page_button-current{
+    border: 1px solid #397439;
+}
