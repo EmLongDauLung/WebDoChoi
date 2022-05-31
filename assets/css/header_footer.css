@@ -155,6 +155,7 @@ html{
 .login_cart-item-link{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 /*  css header mid BOT */
 .mid-bot{
