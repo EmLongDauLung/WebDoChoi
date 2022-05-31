@@ -89,9 +89,10 @@
     border-radius: 10px;
     margin-right: 20px;
     background-color: #e7e9ec;
+    border: solid 2px rgba(255, 255, 255, 0);
 }
 .receiver_information-child:hover{
-    background-color: #72af5c;
+    border: solid 2px #72af5c;
     cursor: pointer;
 }
 /* css số điện thoại */

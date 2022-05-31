@@ -23,7 +23,7 @@ function next()
 //     var img__bgreview = document.getElementById("img__bgreview");
 //     img__bgreview.src = arr_img[index];
 // }
-// setInterval(next,3000);
+setInterval(next,3000);
 // Hiệu ứng chọn ảnh nhỏ mở ra ảnh lớn trong phần sản phẩm-products
 var img_products=[
     "../assets/img/Uchiha Madara (2).jpg",
