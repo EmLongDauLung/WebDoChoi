@@ -3,7 +3,7 @@
 #body{
     width: 100%;
     height: auto;
-    padding: 30px 0;
+    /* padding: 30px 0; */
     background-color: #dbe4d8;
 }
 .body_container{
@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
+    padding: 30px 0;
 }
 .body_left{
     width: 25%;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/header_footer.css">
     <link rel="stylesheet" href="../assets/css/profile_info.css">
+    <link rel="stylesheet" href="../assets/css/order_info.css">
     <script type="text/javascript" language="javascript" src="../main.js"></script>
     <link rel="stylesheet" href="../assets/font/fontawesome-free-6.1.1/css/all.min.css">
     <link rel="icon" href="../assets/img/small_logo1.png">
@@ -146,9 +147,9 @@
                 <!-- body left top (dashboard)-->
                 <div class="body_left-dashboard">
                     <div class="body_left-dashboard_title">THÔNG TIN</div>
-                    <a href="./oder.html" class="body_left-dashboard_child">
+                    <a href="./oder.html" class="body_left-dashboard_child" id="current_page">
                         <div id="hover_icon">
-                            <i class="fa-solid fa-cart-shopping  dashboard_icon"  id="current_page"></i>
+                            <i class="fa-solid fa-cart-shopping  dashboard_icon"></i>
                             Đơn hàng
                         </div>
                         <span>69</span>
@@ -197,7 +198,40 @@
             <!-- body right -->
             <div class="body_right">
                 <div>
-                    
+                    <!-- title -->
+                    <div class="body_right-title">
+                        <div class="body_right-title-1">
+                            <i class="fa-solid fa-cart-shopping  body_right-title_icon"></i>
+                            <p id="body_right-title">Chi tiết đơn hàng</p>
+                        </div>
+                        <a class="body_right-edit_button" href="#">
+                            Đặt lại đơn hàng
+                        </a>
+                    </div>
+                    <!-- content -->
+                    <div class="body_right-order_info">
+                        <div class="oders_info-child">
+                            <div class="oders_info-status">
+                                <div class="oders_info-status-circle">
+                                    <i class="fa-solid fa-box"></i>
+                                </div>
+                                <div class="statusbar"></div>
+                                <div class="oders_info-status-circle">
+                                    <i class="fa-solid fa-truck"></i>
+                                </div>
+                                <div class="statusbar"></div>
+                                <div class="oders_info-status-circle">
+                                    <i class="fa-solid fa-truck-ramp-box"></i>
+                                </div>
+                            </div>
+                            <div class="oders_info-estimated">
+                                <div id="oders_info-estimated">
+                                    Ngày giao dự kiến 
+                                    <b>10/10/2022</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
