@@ -186,7 +186,6 @@ html{
 }
 .menu_left:hover .menu_left-child{
     display: block;
-    z-index: 2;
 }
 .menu_left-child{
     width: 200px;
@@ -194,10 +193,11 @@ html{
     margin-top: 12px;
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
-    box-shadow: 0px 4px 12px -8px;
+    box-shadow: 2px 4px 12px -8px;
     position: absolute;
     display: none;
     cursor: pointer;
+    position: relative;
 }
 .menu_left-child::before{
     content: "";
@@ -214,8 +214,55 @@ html{
     padding: 5px;
     font-size: 14px;
 }
+.menu_left-item-title{
+    display: flex;
+}
+.menu_left-item-title-child{
+    width: fit-content;
+    margin-left: 50px;
+}
 .menu_left-item:hover {
     background-color: #72af5c63;
+    border-radius: 6px;
+}
+.menu_left-item::before{
+    content: "";
+    width: 110%;
+    height: 40px;
+    position: absolute;
+    right: -100%;
+    display: block;
+}
+.icon_arrow-menulv2{
+    width: 10px;
+    height: auto;
+    margin: auto;
+}
+.menu_left-item-lv2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -102%;
+    top: 0%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px -8px;
+    display: none;
+    z-index: 1;
+}
+.menu_left-item:hover .menu_left-item-lv2{
+    display: block;
+}
+.menu_left-item-child{
+    list-style: none;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-size: 14px;
+}
+.menu_left-item-child:hover{
+    background-color: #72af5c63;
+    border-radius: 6px;
 }
 .menu_right{
     width: 500px;
