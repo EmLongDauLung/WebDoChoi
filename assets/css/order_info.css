@@ -69,5 +69,119 @@
 }
 .oders_info-details{
     background-color: #e3e9ef;
-    
+    display: flex;
+    font-size: 15px;
+    color: gray;
+    justify-content: space-between;
+    padding: 20px 30px ;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+.details{
+    padding: 0 !important;
+}
+.oders_info-description{
+    padding: 20px 30px ;
+    padding-top: 0;
+
+}
+.oders_info-product{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+.product_img{
+    width: 66px;
+    height: 66px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.product-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 70px;
+    /* justify-content: space-between; */
+}
+.oders_info-product-child{
+    display: flex;
+    align-items: center;
+    width: 320px;
+}
+.product-name-title{
+    font-size: 22px;
+    /* margin-bottom: 10px; */
+}
+.review{
+    padding: 10px;
+    background-color: #72af5c;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.description{
+    color: gray;
+}
+.biling{
+    display: flex;
+    justify-content: space-between;
+}
+.biling_left{
+    width:48%;
+    height: 90px;
+    /* height: auto; */
+    padding: 20px;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.biling_right{
+    width: 48%;
+    padding: 20px 35px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.biling_left-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.biling_left-address{
+    color: gray;
+}
+.biling_right-1{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    /* margin-bottom: 10px; */
+}
+.biling_right-title{
+    font-weight: 500;
+    font-size: 20px;
+}
+.biling_right-something{
+    font-size: 16px;
+    color: gray;
+}
+/* .biling_right-something-oke{
+    display: flex;
+    justify-content: space-between;
+} */
+.biling_right-something div {
+    display: flex;
+    justify-content: space-between;
+}
+.biling_right-something div p {
+    margin: 5px 0;
+}
+.total{
+    color: black;
+    font-weight: 500;
 }
