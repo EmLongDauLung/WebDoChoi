@@ -15,15 +15,15 @@ function next()
     var img__bgreview = document.getElementById("img__bgreview");
     img__bgreview.src = arr_img[index];
 }
-// function prev()
-// {
-//     index--;
-//     if(index <= 0)
-//         index = 5;
-//     var img__bgreview = document.getElementById("img__bgreview");
-//     img__bgreview.src = arr_img[index];
-// }
-setInterval(next,3000);
+function prev()
+{
+    index--;
+    if(index < 0)
+        index = 5;
+    var img__bgreview = document.getElementById("img__bgreview");
+    img__bgreview.src = arr_img[index];
+}
+// setInterval(next,3000);
 // Hiệu ứng chọn ảnh nhỏ mở ra ảnh lớn trong phần sản phẩm-products
 var img_products=[
     "../assets/img/Uchiha Madara (2).jpg",
@@ -103,3 +103,32 @@ function op_login(){
     let btnregister = document.getElementById("btn_createaccount");
     btnregister.style.display = "block";
 }
+
+// Chuyển đổi tab nhận xét và mô tả trong products-sản phẩm
+function op_detail(){
+    let comment = document.getElementById("products-item-cmt");
+    comment.style.border = "none";
+  
+    let detail = document.getElementById("products-item-detail");
+    detail.style.border = "solid 1px #72af5c";
+  
+    let comment_content = document.getElementById("product_contentcomment");
+    comment_content.style.display = "none";
+  
+    let detail_content = document.getElementById("product_contentdetail");
+    detail_content.style.display = "block";
+  }
+  
+  function op_comment(){
+    let comment = document.getElementById("products-item-cmt");
+    comment.style.border = "solid 1px #72af5c";
+  
+    let detail = document.getElementById("products-item-detail");
+    detail.style.border = "none";
+  
+    let comment_content = document.getElementById("product_contentcomment");
+    comment_content.style.display = "block";
+  
+    let detail_content = document.getElementById("product_contentdetail");
+    detail_content.style.display = "none";
+  }

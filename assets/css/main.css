@@ -292,11 +292,33 @@ html{
     width: 1100px;
     height: 500px;
     margin: auto;
+    position: relative;
 }
 #img__bgreview{
     width: 100%;
     height: 100%;
     border-radius: 6px;
+}
+.arrow_slide{
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    line-height: 500px;
+    top: 0%;
+}
+.arrow_slide-left{
+    left: 0%;
+    background-image:linear-gradient(to right, #72af5c #72af5c00);
+}
+.arrow_slide-right{
+    right: 0%;
+    background-image:linear-gradient(to right, #72af5c #72af5c00);
+}
+.icon_arrow-slide{
+    font-size: 45px;
+    color: #316020;
+    cursor: pointer;
 }
 /* ============css Body============ */
 #body{

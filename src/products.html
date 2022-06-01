@@ -234,59 +234,81 @@
                     </div>
                 </div>
             </div>
-            <div class="body_container-item comment_products">
-                <div class="cmtproducts-top">
-                    Nhận xét
+            <!-- ============================ -->
+            <div class="body_container-item products_cmt-detail">
+                <div class="products_tab">
+                    <button class="products-item" id="products-item-cmt" onclick="op_comment()">
+                        Nhận xét
+                    </button>
+                    <button class="products-item" id="products-item-detail" onclick="op_detail()">
+                        Mô tả chi tiết
+                    </button>
                 </div>
-                <div class="cmtproducts-bot">
-                    <div class="cmtproducts-bot-item">
-                        <div class="cmtproducts-bot-top">
-                            <img src="../assets/img/frog (5).png" class="img_avatar-user">
-                            <div class="user_rated">
-                                <span class="user_rated-name">Bùi Hạ Long</span>
-                                <div>
-                                    <span>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                    </span>
-                                    <span class="user_rated-cmttime">1 tuần trước</span>
+                <div class="products_contents">
+                    <div class="products_cmt" id="product_contentcomment">
+                        <div class="products_cmt-item">
+                            <div class="products_cmt-top">
+                                <img src="../assets/img/frog (5).png" class="img_avatar-user">
+                                <div class="user_rated">
+                                    <span class="user_rated-name">Bùi Hạ Long</span>
+                                    <div>
+                                        <span>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                        </span>
+                                        <span class="user_rated-cmttime">1 tuần trước</span>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="products_cmt-bot">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi enim, voluptatum magni rem reprehenderit natus sit repellat amet aspernatur omnis culpa voluptate tempora. 
+                                    Consequuntur distinctio, labore reprehenderit inventore assumenda aliquam?
+                                </p>
+                            </div>
                         </div>
-                        <div class="cmtproducts-bot-bot">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi enim, voluptatum magni rem reprehenderit natus sit repellat amet aspernatur omnis culpa voluptate tempora. 
-                                Consequuntur distinctio, labore reprehenderit inventore assumenda aliquam?
-                            </p>
+                        <div class="products_cmt-item">
+                            <div class="products_cmt-top">
+                                <img src="../assets/img/frog (2).png" class="img_avatar-user">
+                                <div class="user_rated">
+                                    <span class="user_rated-name">Đỗ Tú Linh</span>
+                                    <div>
+                                        <span>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                            <i class="fa-solid fa-star icon_star"></i>
+                                        </span>
+                                        <span class="user_rated-cmttime">2 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products_cmt-bot">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi enim, voluptatum magni rem reprehenderit natus sit repellat amet aspernatur omnis culpa voluptate tempora. 
+                                    Consequuntur distinctio, labore reprehenderit inventore assumenda aliquam?
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="cmtproducts-bot-item">
-                        <div class="cmtproducts-bot-top">
-                            <img src="../assets/img/frog (2).png" class="img_avatar-user">
-                            <div class="user_rated">
-                                <span class="user_rated-name">Đỗ Tú Linh</span>
-                                <div>
-                                    <span>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                        <i class="fa-solid fa-star icon_star"></i>
-                                    </span>
-                                    <span class="user_rated-cmttime">2 ngày trước</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cmtproducts-bot-bot">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi enim, voluptatum magni rem reprehenderit natus sit repellat amet aspernatur omnis culpa voluptate tempora. 
-                                Consequuntur distinctio, labore reprehenderit inventore assumenda aliquam?
-                            </p>
-                        </div>
+                    <div class="products_detail" id="product_contentdetail">
+                        <p class="products_detai-item">
+                            Bộ sản phẩm đầy đủ y hình, có 3 khuôn mặt khác nhau để thay thế. <br>
+                            Sản phẩm đóng hộp đầy đủ , chắc chắn
+                        </p>
+                        <p>
+                            Uchiha Madara là ninja huyền thoại đứng đầu tộc Uchiha hùng mạnh đầy kiêu hãnh. Madara và những người anh em của hắn sinh ra trong thời kỳ chiến tranh dai dẳng giữa hai tộc Uchiha và Senju. 
+                            Từ khi còn rất trẻ, Madara đã rất mạnh và có thể chiến thằng các ninja lớn tuổi hơn của tộc Senju, khiến mọi người xem hắn là thiên tài. 
+                            Một lần, tình cờ Madara gặp một cấu bé trạc tuổi mình tên là Hashirama của tộc Senju. Cả hai nhanh chóng trở thành bạn và họ cùng nhau thi ai ném đá nhảy trên nước được xa hơn. 
+                            Cả hai đều không tiết lộ tộc của mình nhưng họ cùng dần khám phá ra thân phận của người kia. Và trên chiến trường họ sẽ phải giết nhau, cho dù giữa họ đã có một tình bạn đẹp. 
+                            Madara đã chọn đứng về gia tộc mình, chấm dứt tình bạn với Hashirama và sẵn sàng giết cậu.
+                        </p>
                     </div>
                 </div>
             </div>
+            <!-- ================== -->
             <div class="body_container-item user_ratingproducts">
                 <div class="user_ratingproducts-title">
                     Đánh giá của bạn cho sản phẩm này
