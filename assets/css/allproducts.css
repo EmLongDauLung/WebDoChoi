@@ -1,0 +1,15 @@
+.body_container{
+    width: 1200px;
+    height: auto;
+}
+.body_container-products{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.all_products{
+    margin: 10px 0;
+}

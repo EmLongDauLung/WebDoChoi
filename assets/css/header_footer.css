@@ -283,7 +283,35 @@ html{
 .menu_right-item:hover {
     color: #72af5c;
 }
-
+/* =============== Nút chuyển trang ========= */
+.page_button{
+    margin-top: 20px;
+}
+.page_button_container{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.page_button-child{
+    padding: 7px;
+    border: 1px solid #39743900;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.page_button-child:hover{
+    border: 1px solid #397439;
+}
+.page_button-current{
+    border: 1px solid #397439;
+}
 /* ==============FOOTER============== */
 #footer{
     width: 100%;

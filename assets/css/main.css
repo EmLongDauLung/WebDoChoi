@@ -194,6 +194,7 @@ html{
     position: absolute;
     display: none;
     cursor: pointer;
+    z-index: 1;
     position: relative;
 }
 .menu_left-child::before{
