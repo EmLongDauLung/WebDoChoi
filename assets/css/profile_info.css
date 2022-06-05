@@ -1,8 +1,9 @@
 
 /* ========body profile page======== */
 #body{
-    width: 100%;
+    max-width: 1520px;
     height: auto;
+    margin: auto;
     /* padding: 30px 0; */
     background-color: #dbe4d8;
 }

@@ -14,7 +14,8 @@ html{
     color: #72af5c;
 }
 #header{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1520px;
     height: auto;
     margin: auto;
 }
@@ -348,8 +349,9 @@ html{
 }
 /* ============css Body============ */
 #body{
-    width: 100%;
+    max-width: 1520px;
     height: auto;
+    margin: auto;
     padding: 30px 0;
     background-color: #dbe4d8;
 }
@@ -709,8 +711,9 @@ html{
 }
 /* ==============FOOTER============== */
 #footer{
-    width: 100%;
+    max-width: 1520px;
     height: 400px;
+    margin: auto;
     /* padding: 30px 0; */ 
     background-color: #397224;
 }

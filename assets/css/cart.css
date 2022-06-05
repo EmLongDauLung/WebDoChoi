@@ -1,6 +1,7 @@
 #body{
-    width: 100%;
+    max-width: 1520px;
     height: auto;
+    margin: auto;
     background-color: #dbe4d8;
     padding: 20px 0;
     box-shadow: inset 0 10px 20px -20px black;
