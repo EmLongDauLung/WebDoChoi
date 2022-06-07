@@ -63,6 +63,10 @@
     border-radius: 10px;
     background-color: white;
 }
+.info_producst-right-child{
+    width: 100%;
+    height: auto;
+}
 .info_products-right-item{
     width: 100%;
     height: auto;
@@ -120,74 +124,77 @@
 /* ======== Css phần nhận xét ========= */
 .products_cmt-detail{
     margin-top: 60px;
-  }
-  .products_tab{
-    display: flex;
-    position: relative;
-  }
-  .products-item{
-    /* width: auto;
-    height: auto; */
-    cursor: pointer;
-    margin-right: 16px;
-    padding: 10px 22px;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    border-radius: 10px;
-    background-color: white;
-    border: solid 2px rgba(255, 255, 255, 0);
-  }
-  #products-item-cmt{
+}
+.products_tab{
+display: flex;
+position: relative;
+}
+.products-item{
+/* width: auto;
+height: auto; */
+cursor: pointer;
+margin-right: 16px;
+padding: 10px 22px;
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+border-radius: 10px;
+background-color: white;
+border: solid 2px rgba(255, 255, 255, 0);
+}
+#products-item-cmt{
     border: solid 1px #72af5c;
-  }
-  .products_contents{
+}
+.products_contents{
     width: 100%;
     height: auto;
-  }
-  .products_cmt{
+}
+.products_cmt{
     width: 100%;
     height: auto;
-  }
-  .products_cmt-item{
+}
+.products_cmt-item{
     width: 100%;
     height: auto;
     padding: 20px;
     margin-top: 10px;
     border-radius: 10px;
     background-color: white;
-  }
-  .products_cmt-top{
+}
+.products_cmt-top{
     margin-bottom: 20px;
     display: flex;
-  }
-  #product_contentdetail{
+}
+.products_cmt-bot{
+    font-size: 14px;
+}
+#product_contentdetail{
     display: none;
-  }
-  .products_detail{
+}
+.products_detail{
     width: 100%;
     height: auto;
     padding: 20px;
     margin-top: 10px;
     border-radius: 10px;
     background-color: white;
-  }
-  .products_detai-item{
+    }
+.products_detai-item{
     margin-bottom: 10px;
-  }
-  .img_avatar-user{
+}
+.img_avatar-user{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 8px;
-  }
-  .user_rated-name{
+}
+.user_rated-name{
     font-weight: 500;
-  }
-  .user_rated-cmttime{
+}
+.user_rated-cmttime{
     margin-left: 10px;
     color: #959595;
-  }
+}
 /* css nhận xét của bản thân */
 .user_ratingproducts{
     margin-top: 60px;
