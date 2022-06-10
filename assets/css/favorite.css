@@ -10,3 +10,6 @@
     padding: 15px;
     box-shadow: 0px 0px 15px -8px black;
 }
+.fav{
+    padding: 0 !important;
+}
