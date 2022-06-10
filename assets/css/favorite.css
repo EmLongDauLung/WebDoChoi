@@ -10,3 +10,11 @@
     padding: 15px;
     box-shadow: 0px 0px 15px -8px black;
 }
+.body_fav{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* padding: 30px 0; */
+}
